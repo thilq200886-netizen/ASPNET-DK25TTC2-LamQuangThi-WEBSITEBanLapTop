@@ -135,7 +135,7 @@ Authentication: Windows Authentication
 
 Mở file **`script.sql`** nằm trong thư mục:
 ```
-D:\tvu-Project\Thi\WebsiteLaptop\WebsiteLaptop\src\1Quan trọng\Database\script.sql
+\WebsiteLaptop\src\1Quan trọng\Database\script.sql
 ```
 
 **Bước 4: Chạy script**
