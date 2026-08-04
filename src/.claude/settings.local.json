@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Set-Location 'D:\\\\tvu-Project\\\\Thi\\\\WebsiteLaptop\\\\WebsiteLaptop'; $ignored = git ls-files --others --ignored --exclude-standard src; $exts = @{}; foreach \\($f in $ignored\\) { if \\($f -match '\\\\.\\([^.]+\\)$'\\) { $ext = $matches[1].ToLower\\(\\); if \\(-not $exts.ContainsKey\\($ext\\)\\) { $exts[$ext] = 0 }; $exts[$ext]++ } }; $exts.GetEnumerator\\(\\) | Sort-Object Value -Descending | ForEach-Object { Write-Output \"$\\($_.Key\\): $\\($_.Value\\)\" })"
+    ]
+  }
+}
