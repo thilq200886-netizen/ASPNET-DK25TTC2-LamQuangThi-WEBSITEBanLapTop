@@ -265,7 +265,7 @@ Chạy câu lệnh SQL sau trong database `kaome`:
 -- Insert tài khoản Admin (Role = 0, Status = "1")
 INSERT INTO Account (password, Email, Name, Phone, Role, status, create_by, create_at, update_by, update_at)
 VALUES (
-    '8D697C3E58A74E3da51A23E4F2A3D6F2',  -- Mật khẩu: Admin123@ (đã mã hóa SHA1)
+    '201BCE2458F00A54130C695CA8D1658319B32206D495ADF175847B57BD4A4151',  -- Mật khẩu: Admin123@ (đã mã hóa SHA1)
     'admin@kaome.com',
     'Administrator',
     '0123456789',
